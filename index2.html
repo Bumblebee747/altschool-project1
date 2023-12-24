@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Application Form</h2>
+        <p>Fill in your details</p>
+
+        <form action="post">
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="Enter first name" required>
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Enter last name" required>
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="" selected hidden disabled>Select gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="birthday">Date of Birth</label>
+                <input type="date" placeholder="dd/mm/yyyy" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Email address" required>
+            </div>
+
+            <div>
+                <label for="education">Education Level</label>
+                <select name="education" id="education">
+                    <option value="" selected hidden disabled>Select level of education</option>
+                    <option value="">Bsc</option>
+                    <option value="">Msc</option>
+                    <option value="">Diploma</option>
+                    <option value="">Doctorate (PhD)</option>
+                    <option value="">High School / Secondary School</option>
+                    <option value="">Undergraduate</option>
+                    <option value="">Junior / Middle School</option>
+                    <option value="">Post Graduate</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="" selected hidden disabled>Select your country</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Albania</option>
+                    <option value="">Algeria</option>
+                    <option value="">Andorra</option>
+                    <option value="">Angola</option>
+                    <option value="">Antigua</option>
+                    <option value="">Argentina</option>
+                    <option value="">Armenia</option>
+                    <option value="">Australia</option>
+                    <option value="">Austria</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="residence">State/City of Residence</label>
+                <input type="text" placeholder="Enter your state of residence" required>
+            </div>
+
+            <div>
+                <label for="employment">Employment Status</label>
+                <select name="employment" id="employment">
+                    <option value="" selected hidden disabled>Select employment status</option>
+                    <option value="">employed</option>
+                    <option value="">unemployed</option>
+                    <option value="">self-employed</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="phone-number">Phone Number</label>
+                <input type="number" name="phone-number" id="phone-number" placeholder="08154387000" required>
+            </div>
+
+            <div>
+                <label for="School">Choose School</label>
+                <select name="school" id="school">
+                    <option value="" selected hidden disabled>Select school</option>
+                    <option value="">School of Creative Economy</option>
+                    <option value="">School of Business</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="course">Choose Course of Study</label>
+                <select name="course" id="course">
+                    <option value="" selected hidden disabled>Select course</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="channel">How did you hear about us?</label>
+                <select name="channel" id="channel">
+                    <option value="" selected disabled hidden>Select channel</option>
+                    <option value="">Twitter</option>
+                    <option value="">Facebook</option>
+                    <option value="">LinkedIn</option>
+                    <option value="">Youtube</option>
+                    <option value="">Friend</option>
+                    <option value="">Whatsapp</option>
+                    <option value="">Instagram</option>
+                    <option value="">Bill Board</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="special-code">Scholarship/Discount Code (optional)</label>
+                <input type="text" name="special-code" id="special-code" placeholder="Scholarship or student ID or discount codes" required>
+            </div>
+
+            <p>By clicking continue, I agree to &nbsp;<a href="#">Terms of Use</a> and acknowledge that I have read the &nbsp;<a href="#">Privacy Policy.</a></p>
+            <button>Proceed</button>
+        </form>
+        <p>Already have an account? <a href="#">Sign In</a></p>
+    </div>
+</body>
+</html>
